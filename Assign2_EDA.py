@@ -4,7 +4,7 @@ import pickle
 
 
 # Raw data
-raw_data = np.load(r'C:\Users\tenag\Desktop\ECE5984DataEngineeringData set\_Homework1_batch_ingest.pkl', allow_pickle=True)   # Load pickle data here
+raw_data = np.load(r'C:\DataEngineeringData set\_Hk1_batch_ingest.pkl', allow_pickle=True)   # Load pickle data here
 # Display the complete data
 print("The Dataset looks like:")
 print(raw_data)
