@@ -7,9 +7,9 @@ def transform_data():
 
     s3 = S3FileSystem()
     # S3 bucket directory (data lake)
-    DIR = 's3://ece5984-s3-tenag/Assign2/Data_Lake2'    # Insert your S3 bucket address here. Read from the directory you created in batch ingest: Lab2/batch_ingest/
+    DIR = 's3://vvvv/A2/Data_Lake2'    # Insert your S3 bucket address here. Read from the directory you created in batch ingest: Lab2/batch_ingest/
     # Get data from S3 bucket as a pickle file
-    raw_data = np.load(s3.open('{}/{}'.format(DIR, 'Assign2_batch_ingest.pkl')), allow_pickle=True)
+    raw_data = np.load(s3.open('{}/{}'.format(DIR, 'A2_batch_ingest.pkl')), allow_pickle=True)
 
 
     #raw_data = np.load('data.pkl', allow_pickle=True)
