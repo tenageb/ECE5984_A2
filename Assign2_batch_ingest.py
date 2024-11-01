@@ -32,7 +32,7 @@ def ingest_data():
 
     # Initialize S3 file system and specify the S3 bucket directory
     s3 = s3fs.S3FileSystem()
-    s3_dir = 's3://ece5984-s3-tenag/Assign2/Data_Lake2'  # Insert  your S3 bucket address here. Create a directory as Assign2/batch_ingest
+    s3_dir = 's3://vvvv/A2/Data_Lake2'  # Insert  your S3 bucket address here. Create a directory as Assign2/batch_ingest
 
     # Save the modified dataset to the S3 bucket as a pickle file
     with s3.open(f'{s3_dir}/Assign2_batch_ingest.pkl', 'wb') as file:
